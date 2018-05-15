@@ -1,9 +1,10 @@
 <?php
 
 namespace Boolfly\PaymentFee\Helper;
-
-
-
+/**
+ * Class Data
+ * @package Boolfly\PaymentFee\Helper
+ */
 class Data extends \Magento\Framework\App\Helper\AbstractHelper
 {
 

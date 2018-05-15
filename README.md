@@ -1,4 +1,19 @@
 # Boolfly Payment Fee
+
+- - -
+[Forked from mrkhoa99/Boolfly_payment_fee]( https://github.com/mrkhoa99/Boolfly_payment_fee ).
+
+Installation
+-------------
+**Using Composer**
+
+Run the following series of command (from root of your Magento2 Installation):
+```
+composer config repositories.boolfly-payment-fee git git@github.com:latenights/Boolfly_payment_fee.git
+composer require boolfly/payment-fee:dev-master
+```
+Tested on M 2.2.3
+- - -
 Add a specific fee to the payment in Magento 2
 
 The same license with Magento application: https://opensource.org/licenses/OSL-3.0
@@ -28,5 +43,3 @@ Thanks to <a href="https://github.com/devromans">@devromans</a>
 <h3>Checkout Page:</h3>
 
 <img src="https://github.com/mrkhoa99/Boolfly_payment_fee/blob/master/screenshots/One%20Page%20Checkout.png" alt="Boofly Payment fee on checkout Page"/>
-
-**Tested: Magento 2.1.2**
