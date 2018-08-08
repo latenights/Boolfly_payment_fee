@@ -12,7 +12,9 @@ define(
 
         return function (paymentMethod) {
             quote.paymentMethod(paymentMethod);
-            totals(isLoading, paymentMethod['method']);
+			if (paymentMethod){
+            	totals(isLoading, paymentMethod['method']);
+			}
         }
     }
 );
